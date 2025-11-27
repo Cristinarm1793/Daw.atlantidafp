@@ -118,15 +118,17 @@ public class Electrodomesticos {
         } else if (consumoEnergetico.equals("A")) {
             precio += 100;
         } else if (consumoEnergetico.equals("B")) {
-            precio += 100;
+            precio += 80;
         } else if (consumoEnergetico.equals("C")) {
-            precio += 100;
+            precio += 60;
         } else if (consumoEnergetico.equals("D")) {
-            precio += 100;
+            precio += 50;
         } else if (consumoEnergetico.equals("E")) {
-            precio += 100;
+            precio += 30;
         } else if (consumoEnergetico.equals("F")) {
-            precio += 100;
+            precio += 10;
+        } else {
+            System.out.println("Error");
         }
 
         // Por peso
@@ -135,9 +137,11 @@ public class Electrodomesticos {
         } else if (peso >= 20 && peso <= 49) {
             precio += 30;
         } else if (peso >= 50 && peso <= 79) {
-            precio += 30;
+            precio += 50;
         } else if (peso >= 80) {
             precio += 100;
+        } else {
+            System.out.println("Error");
         }
 
         return precio;

@@ -38,6 +38,7 @@ public class Television extends Electrodomesticos {
         if (resolucion > 20) {
             precio += precioBase * 0.30;
         }
+
         if (netflix) {
             precio += 60;
         }
