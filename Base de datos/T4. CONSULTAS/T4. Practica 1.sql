@@ -1,0 +1,10 @@
+SELECT empresa, límite_crédito FROM clientes;
+SELECT id_producto, precio FROM productos;
+SELECT id_producto, existencias FROM productos WHERE existencias < 10;
+SELECT precio FROM productos WHERE id_fab = "REI" AND id_producto ="2A44L";
+SELECT empresa FROM clientes WHERE límite_crédito > 40000 AND límite_crédito < 60000; 
+SELECT num_clie, empresa FROM clientes WHERE rep_clie = 102;
+SELECT oficina, ciudad, objetivo, objetivo * 1.10 AS aumento_objetivo FROM oficinas;
+SELECT ciudad, región, ventas - objetivo AS diferencia FROM oficinas WHERE ventas<objetivo;
+SELECT num_pedido, producto, importe/cant AS precio_unidad FROM pedidos;
+SELECT DISTINCT YEAR (fecha_pedido) AS AñoNoRepetidos  FROM pedidos;
