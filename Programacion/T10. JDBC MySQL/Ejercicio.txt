@@ -1,0 +1,14 @@
+SQL y Java: Ampliación de Gestión de Coches con Funcionalidad CRUD
+
+Ampliar la aplicación Java creada anteriormente,
+que mostraba un listado de coches desde una base de datos MySQL,
+para que ahora permita realizar todas las operaciones
+básicas CRUD:
+
+Insertar un nuevo coche.
+
+Actualizar un coche existente.
+
+Eliminar un coche.
+
+Consultar todos los coches (ya implementado).
